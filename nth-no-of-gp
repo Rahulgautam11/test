@@ -1,0 +1,5 @@
+const a = prompt("enter the first value GP");
+const b = prompt("enter the value of common ratio");
+const n = prompt("enter the vlaue you want to find");
+var gp = a * Math.floor(Math.pow(b, n - 1));
+alert(gp);
