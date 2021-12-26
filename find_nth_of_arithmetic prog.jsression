@@ -1,0 +1,5 @@
+const a = prompt("enter the 1 value");
+const b = prompt("enter the value of common defference");
+const n = prompt("enter the value which you want");
+var r = a * (n - 1) * b;
+alert(r);
